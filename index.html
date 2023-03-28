@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="/CC/CoughCounter.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            
+            <title>T.Panks Cough Counter</title>
+        </head>
+        <body> 
+            <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="form">
+                <h3 class="w3-center h3">CoughCounter</h3>
+        
+            </div>
+            <center>
+                <form action="CC/CoughCounter.php" method="post" class="w3-light-grey">
+                    <div class="w3-section">
+                    <hr>
+                        <label for "count">Times Coughed</label>
+                        <input class="w3-input w3-border" type ="number" id="count" name="count">
+                    </div>
+                    <div class="w3-section">
+                        <label for "gag">Gagged</label>
+                        <input type="checkbox" id="gag" name="gag" value="1">
+                        <label for "retch">Retched</label>
+                        <input type="checkbox" id="retch" name="retch">
+                    </div>
+                    <div class="w3-section">
+                        <label for "notes">Notes</label>
+                        <input class="w3-input w3-border" type="text" id="notes" name="notes">
+                    </div>
+                        <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+                </form>
+            </center>
+        </body>
+    </html>
